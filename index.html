@@ -4,34 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="app.js"></script>
+    <title>Odin Calculator</title>
     <link rel="stylesheet" href="main.css" />
+    <script src="app.js" defer></script>
   </head>
   <body>
+    <img
+      src="https://c.tenor.com/kHcmsxlKHEAAAAAC/rock-one-eyebrow-raised-rock-staring.gif"
+      alt=""
+      loading="lazy"
+      class="jumpscare"
+    />
     <div class="calculator">
-      <div class="calculator--up">
-        <div class="resultDisplay">0</div>
-      </div>
-      <div class="buttons">
-        <button class="btn digInput">7</button>
-        <button class="btn digInput">8</button>
-        <button class="btn digInput">9</button>
-        <button class="btn opeInput">*</button>
+      <div class="calculator--prevOutput"></div>
+      <div class="calculator--output">0</div>
+      <div class="calculator--buttons">
+        <button class="calculator--button noadded"></button>
+        <button class="calculator--button noadded"></button>
+        <button class="calculator--button clsInput"></button>
+        <button class="calculator--button clsLast">^</button>
 
-        <button class="btn digInput">4</button>
-        <button class="btn digInput">5</button>
-        <button class="btn digInput">6</button>
-        <button class="btn opeInput">-</button>
+        <button class="calculator--button noadded"></button>
+        <button class="calculator--button noadded"></button>
+        <button class="calculator--button noadded"></button>
+        <button class="calculator--button opeInput">/</button>
 
-        <button class="btn digInput">1</button>
-        <button class="btn digInput">2</button>
-        <button class="btn digInput">3</button>
-        <button class="btn opeInput">+</button>
+        <button class="calculator--button digInput">7</button>
+        <button class="calculator--button digInput">8</button>
+        <button class="calculator--button digInput">9</button>
+        <button class="calculator--button opeInput">*</button>
 
-        <button class="btn digInput">0</button>
-        <button class="btn digInput">.</button>
-        <button class="btn equInput">=</button>
+        <button class="calculator--button digInput">4</button>
+        <button class="calculator--button digInput">5</button>
+        <button class="calculator--button digInput">6</button>
+        <button class="calculator--button opeInput">-</button>
+
+        <button class="calculator--button digInput">1</button>
+        <button class="calculator--button digInput">2</button>
+        <button class="calculator--button digInput">3</button>
+        <button class="calculator--button opeInput">+</button>
+
+        <button class="calculator--button noadded"></button>
+        <button class="calculator--button digInput">0</button>
+        <button class="calculator--button digInput">.</button>
+        <button class="calculator--button equInput">=</button>
       </div>
     </div>
   </body>
